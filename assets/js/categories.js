@@ -1,4 +1,4 @@
-const element1 = document.querySelector(".categorie_class");
+const element1 = document.querySelector(".categorie_class1");
 const element2 = document.querySelector(".categorie_class2");
 const element3 = document.querySelector(".categorie_class3");
 const element4 = document.querySelector(".categorie_class4");

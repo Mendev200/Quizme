@@ -30,7 +30,7 @@ choixJoueur.forEach((element, index) => {
 
             // AJOUTER +10 POINTS en sessionStorage
             sessionStorage.score_session = Number(sessionStorage.score_session) + 10;
-            
+
             // AJOUTER +10 POINTS en localStorage
             localStorage.score_globale = Number(localStorage.score_globale) + 10;
 
@@ -40,6 +40,14 @@ choixJoueur.forEach((element, index) => {
             window.location.href = "mauvaise_reponse.html";
         }
     });
+
+    function sessionScore() {
+        const sessionScore = document.querySelector('.session_score');
+        let scoreSession = sessionStorage.score_session;
+        sessionScore.textContent = scoreSession + " pts";
+    }
+
+    sessionScore();
 });
 
 

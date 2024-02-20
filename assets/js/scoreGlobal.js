@@ -1,12 +1,13 @@
+function getScoreGlobal() {
+    const localScore = document.querySelector('#score_global');
+    if (localScore) {
+        let scoreTotal = localStorage.getItem('score_globale');
+        if (scoreTotal) {
+            localScore.textContent = scoreTotal + " pts";
+        } else {
+            console.log("Pas de score global dans le localStorage");
+        }
+    }
+}
 
-// SCORE GLOBAL (localStorage)
-const localScore = document.querySelector('#score_global');
-let  scoreTotal = localStorage.score_globale;
-
-
-
-
-localScore.textContent = scoreTotal + " pts";
-
-// console.log(scoreGlobal);
-
+getScoreGlobal();

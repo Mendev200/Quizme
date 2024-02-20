@@ -5,10 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script type="module" src="assets/js/play_game.js" defer></script>
-
+  <link rel="stylesheet" href="assets/css/style.min.css" />
   <title>Quizme - L'application de quiz fun et ludique.</title>
+  <script src="assets/js/timer.js" defer></script>
+  <script src="assets/js/getQuestions.js" defer></script>
+  <script src="assets/js/randomLetterColors.js" defer></script>
 </head>
 
 <body class="bg-interface">
@@ -33,16 +34,12 @@
       <div class="bouton_question choix"></div>
       <div class="bouton_question choix"></div>
 
-
-    <div class="accueil_score">
-
-      <a href="accueil.html"><div class="accueil_question colors">ACCUEIL</div></a>
-
-
-
-
-      <div class="session_score colors">SCORE</div>
-    </div>
+      <div class="accueil_score">
+        <a href="accueil.html">
+          <div class="accueil_question colors">ACCUEIL</div>
+        </a>
+        <div class="session_score colors">SCORE</div>
+      </div>
     </div>
   </section>
 </body>
