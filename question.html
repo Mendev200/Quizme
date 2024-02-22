@@ -7,9 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/css/style.min.css" />
   <title>Quizme - L'application de quiz fun et ludique.</title>
-  <script src="assets/js/timer.js" defer></script>
-  <script src="assets/js/getQuestions.js" defer></script>
   <script src="assets/js/randomLetterColors.js" defer></script>
+  <script src="assets/js/classes/QuestionTimer.js" defer></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Créer une instance de QuestionTimer avec la durée du minuteur et le texte des secondes
+      const questionTimer = new QuestionTimer(30, " sec");
+      // Démarrer le minuteur et la configuration des questions
+      questionTimer.start();
+    });
+  </script>
 </head>
 
 <body class="bg-interface">
