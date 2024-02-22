@@ -10,11 +10,18 @@
   <link rel="stylesheet" href="assets/css/style.min.css" />
   <title>Quizme - L'application de quiz fun et ludique.</title>
   <script src="assets/js/scoreGlobal.js" defer></script>
-  <script src="assets/js/getPseudo.js" defer></script>
-
   <script src="assets/js/categories.js" defer></script>
   <script src="assets/js/randomLetterColors.js" defer></script>
+  <script src="assets/js/classes/Pseudo.js" defer></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Appelez la méthode getPseudo() de la classe Pseudo
+      Pseudo.getPseudo();
+    });
+  </script>
 </head>
+
 
 <body class="bg-interface">
   <header>
@@ -41,12 +48,13 @@
 
   <section class="pseudo_score">
     <div class="btn-pseudo">
-    <a href="editpseudo.html" id="pseudo" class="pseudo colors">PSEUDO</a>
-    <a href="editpseudo.html"><img class="crayon" src="assets/image\Vector.png" alt="" /></a>
+      <a href="editpseudo.html" id="pseudo" class="pseudo colors">PSEUDO</a>
+      <a href="editpseudo.html"><img class="crayon" src="assets/image\Vector.png" alt="" /></a>
     </div>
     <a id="score_global" class="colors">SCORE</a>
   </section>
   </div>
+
 
 </body>
 
