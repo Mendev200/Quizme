@@ -1,13 +1,17 @@
 function getScoreGlobal() {
-    const localScore = document.querySelector('#score_global');
-    if (localScore) {
-        let scoreTotal = localStorage.getItem('score_globale');
+    const localScores = document.querySelectorAll('.score_global');
+    if (localScores.length > 0) {
+        let scoreTotal = sessionStorage.getItem('score_session'); // Utilisation de la clé correcte
         if (scoreTotal) {
-            localScore.textContent = scoreTotal + " pts";
+            localScores.forEach(function(scoreElement) {
+                scoreElement.textContent = scoreTotal + " pts";
+            });
         } else {
-            console.log("Pas de score global dans le localStorage");
+            console.log("Pas de score global dans le sessionStorage");
         }
     }
 }
 
 getScoreGlobal();
+
+
