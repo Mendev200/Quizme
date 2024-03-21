@@ -525,7 +525,7 @@ input::placeholder {
 
 /* ECRAN DES SCORES */
 .section_des_scores {
-  background-image: url("../../assets/image/image_des_scores.png");
+  background-image: url("../../public/image/image_des_scores.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
