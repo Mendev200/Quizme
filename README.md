@@ -1,6 +1,7 @@
 <div style="text-align:center">
-![Logo Quizme](public\image\LOGO.png)
+    ![Logo Quizme](public/image/LOGO.png)
 </div>
+
 # Quizme - L'application de quiz fun et ludique
 
 Quizme est une application de quiz divertissante et ludique qui vous permet de tester vos connaissances en informatique tout en vous amusant.
