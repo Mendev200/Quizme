@@ -1,5 +1,5 @@
 <div style="text-align:center">
-    ![Logo Quizme](public/image/LOGO.png)
+    <img src="public/image/LOGO.png" alt="Logo Quizme">
 </div>
 
 # Quizme - L'application de quiz fun et ludique
