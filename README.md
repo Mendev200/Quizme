@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="public/image/EL LOGO.png" alt="Logo Quizme" style="width: 100px; height: 100px;">
+    <img src="public/image/EL LOGO.png" alt="Logo Quizme" style="width: 300px; height: 300px;">
 </div>
 
 
