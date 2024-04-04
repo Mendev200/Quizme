@@ -1,6 +1,7 @@
-<div style="text-align:center">
-    <img src="public/image/LOGO.png" alt="Logo Quizme">
+<div align="center">
+    <img src="public/image/LOGO.png" alt="Logo Quizme" style="width: 300px; height: 300px;">
 </div>
+
 
 # Quizme - L'application de quiz fun et ludique
 
